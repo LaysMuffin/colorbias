@@ -1,0 +1,366 @@
+{
+  "FixedColorHead": {
+    "total_params": 77163,
+    "trainable_params": 77163,
+    "flops": 76480,
+    "memory_mb": 0.2943534851074219,
+    "layers": [
+      {
+        "name": "color_extractor.0",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 256,
+        "parameters": 16640
+      },
+      {
+        "name": "color_extractor.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_extractor.2",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "color_extractor.3",
+        "type": "Linear",
+        "in_features": 256,
+        "out_features": 128,
+        "parameters": 32896
+      },
+      {
+        "name": "color_extractor.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_extractor.5",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "color_extractor.6",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 64,
+        "parameters": 8256
+      },
+      {
+        "name": "color_extractor.7",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_classifier.0",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 128,
+        "parameters": 8320
+      },
+      {
+        "name": "color_classifier.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_classifier.2",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "color_classifier.3",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 64,
+        "parameters": 8256
+      },
+      {
+        "name": "color_classifier.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_classifier.5",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "color_classifier.6",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 43,
+        "parameters": 2795
+      }
+    ]
+  },
+  "BaseModel": {
+    "total_params": 3841323,
+    "trainable_params": 3841323,
+    "flops": 3839360,
+    "memory_mb": 14.653484344482422,
+    "layers": [
+      {
+        "name": "features.0",
+        "type": "Linear",
+        "in_features": 3072,
+        "out_features": 1024,
+        "parameters": 3146752
+      },
+      {
+        "name": "features.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "features.2",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "features.3",
+        "type": "Linear",
+        "in_features": 1024,
+        "out_features": 512,
+        "parameters": 524800
+      },
+      {
+        "name": "features.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "features.5",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "features.6",
+        "type": "Linear",
+        "in_features": 512,
+        "out_features": 256,
+        "parameters": 131328
+      },
+      {
+        "name": "features.7",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "features.8",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "features.9",
+        "type": "Linear",
+        "in_features": 256,
+        "out_features": 128,
+        "parameters": 32896
+      },
+      {
+        "name": "features.10",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "features.11",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "features.12",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 43,
+        "parameters": 5547
+      }
+    ]
+  },
+  "EnsembleModel": {
+    "total_params": 3918487,
+    "trainable_params": 3918487,
+    "flops": 3915926,
+    "memory_mb": 14.94784164428711,
+    "layers": [
+      {
+        "name": "base_model.features.0",
+        "type": "Linear",
+        "in_features": 3072,
+        "out_features": 1024,
+        "parameters": 3146752
+      },
+      {
+        "name": "base_model.features.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.2",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.3",
+        "type": "Linear",
+        "in_features": 1024,
+        "out_features": 512,
+        "parameters": 524800
+      },
+      {
+        "name": "base_model.features.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.5",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.6",
+        "type": "Linear",
+        "in_features": 512,
+        "out_features": 256,
+        "parameters": 131328
+      },
+      {
+        "name": "base_model.features.7",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.8",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.9",
+        "type": "Linear",
+        "in_features": 256,
+        "out_features": 128,
+        "parameters": 32896
+      },
+      {
+        "name": "base_model.features.10",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.11",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "base_model.features.12",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 43,
+        "parameters": 5547
+      },
+      {
+        "name": "color_head.color_extractor.0",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 256,
+        "parameters": 16640
+      },
+      {
+        "name": "color_head.color_extractor.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_extractor.2",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_extractor.3",
+        "type": "Linear",
+        "in_features": 256,
+        "out_features": 128,
+        "parameters": 32896
+      },
+      {
+        "name": "color_head.color_extractor.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_extractor.5",
+        "type": "Dropout",
+        "p": 0.3,
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_extractor.6",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 64,
+        "parameters": 8256
+      },
+      {
+        "name": "color_head.color_extractor.7",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_classifier.0",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 128,
+        "parameters": 8320
+      },
+      {
+        "name": "color_head.color_classifier.1",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_classifier.2",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_classifier.3",
+        "type": "Linear",
+        "in_features": 128,
+        "out_features": 64,
+        "parameters": 8256
+      },
+      {
+        "name": "color_head.color_classifier.4",
+        "type": "ReLU",
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_classifier.5",
+        "type": "Dropout",
+        "p": 0.2,
+        "parameters": 0
+      },
+      {
+        "name": "color_head.color_classifier.6",
+        "type": "Linear",
+        "in_features": 64,
+        "out_features": 43,
+        "parameters": 2795
+      }
+    ]
+  }
+}
