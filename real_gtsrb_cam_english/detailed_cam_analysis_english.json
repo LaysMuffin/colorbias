@@ -1,0 +1,354 @@
+{
+  "model_path": "best_improved_color_combination_head.pth",
+  "output_dir": "real_gtsrb_cam_english",
+  "num_samples": 22,
+  "data_type": "Real GTSRB with English Labels",
+  "samples_per_combo": 2,
+  "cam_analysis": [
+    {
+      "sample_name": "Red-White-Black (GTSRB 0)",
+      "class_id": 0,
+      "combo_id": 0,
+      "file_name": "00004_00005.ppm",
+      "cam_stats": {
+        "mean": 0.08821192383766174,
+        "std": 0.1563170701265335,
+        "max": 0.9999964833259583,
+        "min": 0.0,
+        "high_attention_ratio": 0.0361328125,
+        "center_attention": 0.04289484769105911
+      }
+    },
+    {
+      "sample_name": "Red-White-Black (GTSRB 0)",
+      "class_id": 0,
+      "combo_id": 0,
+      "file_name": "00004_00023.ppm",
+      "cam_stats": {
+        "mean": 0.09824220836162567,
+        "std": 0.17211797833442688,
+        "max": 0.9999946355819702,
+        "min": 0.0,
+        "high_attention_ratio": 0.0419921875,
+        "center_attention": 0.05472314730286598
+      }
+    },
+    {
+      "sample_name": "Red-White-Black (GTSRB 1)",
+      "class_id": 1,
+      "combo_id": 0,
+      "file_name": "00016_00023.ppm",
+      "cam_stats": {
+        "mean": 0.05736500397324562,
+        "std": 0.12494555860757828,
+        "max": 0.9999963045120239,
+        "min": 0.0,
+        "high_attention_ratio": 0.0166015625,
+        "center_attention": 0.012366637587547302
+      }
+    },
+    {
+      "sample_name": "Red-White-Black (GTSRB 1)",
+      "class_id": 1,
+      "combo_id": 0,
+      "file_name": "00041_00022.ppm",
+      "cam_stats": {
+        "mean": 0.16703534126281738,
+        "std": 0.20504893362522125,
+        "max": 0.9999983906745911,
+        "min": 0.0,
+        "high_attention_ratio": 0.0810546875,
+        "center_attention": 0.041064634919166565
+      }
+    },
+    {
+      "sample_name": "Red-White-Black (GTSRB 2)",
+      "class_id": 2,
+      "combo_id": 0,
+      "file_name": "00045_00019.ppm",
+      "cam_stats": {
+        "mean": 0.254727840423584,
+        "std": 0.17459872364997864,
+        "max": 0.9999991059303284,
+        "min": 0.0,
+        "high_attention_ratio": 0.0869140625,
+        "center_attention": 0.1932545304298401
+      }
+    },
+    {
+      "sample_name": "Red-White-Black (GTSRB 2)",
+      "class_id": 2,
+      "combo_id": 0,
+      "file_name": "00032_00005.ppm",
+      "cam_stats": {
+        "mean": 0.18967518210411072,
+        "std": 0.15074938535690308,
+        "max": 0.9999997019767761,
+        "min": 0.0,
+        "high_attention_ratio": 0.04296875,
+        "center_attention": 0.29356932640075684
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 33)",
+      "class_id": 33,
+      "combo_id": 1,
+      "file_name": "00002_00012.ppm",
+      "cam_stats": {
+        "mean": 0.1467430144548416,
+        "std": 0.22700899839401245,
+        "max": 0.9999983310699463,
+        "min": 0.0,
+        "high_attention_ratio": 0.1123046875,
+        "center_attention": 0.35248178243637085
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 33)",
+      "class_id": 33,
+      "combo_id": 1,
+      "file_name": "00018_00018.ppm",
+      "cam_stats": {
+        "mean": 0.14165598154067993,
+        "std": 0.2144026756286621,
+        "max": 0.9999973177909851,
+        "min": 0.0,
+        "high_attention_ratio": 0.0927734375,
+        "center_attention": 0.23018544912338257
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 34)",
+      "class_id": 34,
+      "combo_id": 1,
+      "file_name": "00006_00009.ppm",
+      "cam_stats": {
+        "mean": 0.10006226599216461,
+        "std": 0.20096102356910706,
+        "max": 0.9999977350234985,
+        "min": 0.0,
+        "high_attention_ratio": 0.078125,
+        "center_attention": 0.1609630286693573
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 34)",
+      "class_id": 34,
+      "combo_id": 1,
+      "file_name": "00010_00025.ppm",
+      "cam_stats": {
+        "mean": 0.20272544026374817,
+        "std": 0.2568267285823822,
+        "max": 0.9999986886978149,
+        "min": 0.0,
+        "high_attention_ratio": 0.166015625,
+        "center_attention": 0.1301916539669037
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 35)",
+      "class_id": 35,
+      "combo_id": 1,
+      "file_name": "00014_00002.ppm",
+      "cam_stats": {
+        "mean": 0.1353737860918045,
+        "std": 0.22386309504508972,
+        "max": 0.9999980926513672,
+        "min": 0.0,
+        "high_attention_ratio": 0.09765625,
+        "center_attention": 0.19039058685302734
+      }
+    },
+    {
+      "sample_name": "Blue-White (GTSRB 35)",
+      "class_id": 35,
+      "combo_id": 1,
+      "file_name": "00021_00028.ppm",
+      "cam_stats": {
+        "mean": 0.15720343589782715,
+        "std": 0.24873600900173187,
+        "max": 0.9999982714653015,
+        "min": 0.0,
+        "high_attention_ratio": 0.1552734375,
+        "center_attention": 0.2607112228870392
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 12)",
+      "class_id": 12,
+      "combo_id": 2,
+      "file_name": "00028_00000.ppm",
+      "cam_stats": {
+        "mean": 0.000973290007095784,
+        "std": 0.031130069866776466,
+        "max": 0.9966489672660828,
+        "min": 0.0,
+        "high_attention_ratio": 0.0009765625,
+        "center_attention": 0.015572640113532543
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 12)",
+      "class_id": 12,
+      "combo_id": 2,
+      "file_name": "00062_00015.ppm",
+      "cam_stats": {
+        "mean": 0.12454013526439667,
+        "std": 0.21281374990940094,
+        "max": 0.9999990463256836,
+        "min": 0.0,
+        "high_attention_ratio": 0.0751953125,
+        "center_attention": 0.795235276222229
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 32)",
+      "class_id": 32,
+      "combo_id": 2,
+      "file_name": "00004_00026.ppm",
+      "cam_stats": {
+        "mean": 0.0,
+        "std": 0.0,
+        "max": 0.0,
+        "min": 0.0,
+        "high_attention_ratio": 0.0,
+        "center_attention": 0.0
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 32)",
+      "class_id": 32,
+      "combo_id": 2,
+      "file_name": "00002_00025.ppm",
+      "cam_stats": {
+        "mean": 0.03073236346244812,
+        "std": 0.11851977556943893,
+        "max": 0.9999836683273315,
+        "min": 0.0,
+        "high_attention_ratio": 0.01953125,
+        "center_attention": 0.11456918716430664
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 41)",
+      "class_id": 41,
+      "combo_id": 2,
+      "file_name": "00007_00021.ppm",
+      "cam_stats": {
+        "mean": 0.0026771309785544872,
+        "std": 0.04746214300394058,
+        "max": 0.9998170733451843,
+        "min": 0.0,
+        "high_attention_ratio": 0.0029296875,
+        "center_attention": 0.009472517296671867
+      }
+    },
+    {
+      "sample_name": "Yellow-White-Black (GTSRB 41)",
+      "class_id": 41,
+      "combo_id": 2,
+      "file_name": "00001_00023.ppm",
+      "cam_stats": {
+        "mean": 0.009148338809609413,
+        "std": 0.05750378966331482,
+        "max": 0.9999840259552002,
+        "min": 0.0,
+        "high_attention_ratio": 0.001953125,
+        "center_attention": 0.00011941926641156897
+      }
+    },
+    {
+      "sample_name": "Red-White (GTSRB 14)",
+      "class_id": 14,
+      "combo_id": 3,
+      "file_name": "00002_00022.ppm",
+      "cam_stats": {
+        "mean": 0.30063819885253906,
+        "std": 0.2293645739555359,
+        "max": 0.9999992847442627,
+        "min": 0.0,
+        "high_attention_ratio": 0.1923828125,
+        "center_attention": 0.5371651649475098
+      }
+    },
+    {
+      "sample_name": "Red-White (GTSRB 14)",
+      "class_id": 14,
+      "combo_id": 3,
+      "file_name": "00015_00021.ppm",
+      "cam_stats": {
+        "mean": 0.2768581509590149,
+        "std": 0.2213839739561081,
+        "max": 0.9999994039535522,
+        "min": 0.0,
+        "high_attention_ratio": 0.18359375,
+        "center_attention": 0.43952131271362305
+      }
+    },
+    {
+      "sample_name": "Black-White (GTSRB 6)",
+      "class_id": 6,
+      "combo_id": 4,
+      "file_name": "00003_00017.ppm",
+      "cam_stats": {
+        "mean": 0.038605134934186935,
+        "std": 0.1231711134314537,
+        "max": 0.9999977946281433,
+        "min": 0.0,
+        "high_attention_ratio": 0.0205078125,
+        "center_attention": 0.019449729472398758
+      }
+    },
+    {
+      "sample_name": "Black-White (GTSRB 6)",
+      "class_id": 6,
+      "combo_id": 4,
+      "file_name": "00001_00014.ppm",
+      "cam_stats": {
+        "mean": 0.0009765437571331859,
+        "std": 0.03123413771390915,
+        "max": 0.9999808073043823,
+        "min": 0.0,
+        "high_attention_ratio": 0.0009765625,
+        "center_attention": 0.0
+      }
+    }
+  ],
+  "summary_stats": {
+    "Red-White-Black": {
+      "num_samples": 6,
+      "avg_attention_ratio": 0.050944010416666664,
+      "avg_center_attention": 0.10631218738853931,
+      "avg_cam_mean": 0.14254291666050753,
+      "avg_cam_std": 0.1639629416167736
+    },
+    "Blue-White": {
+      "num_samples": 6,
+      "avg_attention_ratio": 0.11702473958333333,
+      "avg_center_attention": 0.2208206206560135,
+      "avg_cam_mean": 0.147293987373511,
+      "avg_cam_std": 0.22863308837016424
+    },
+    "Yellow-White-Black": {
+      "num_samples": 6,
+      "avg_attention_ratio": 0.016764322916666668,
+      "avg_center_attention": 0.1558281733438586,
+      "avg_cam_mean": 0.028011876420350745,
+      "avg_cam_std": 0.07790492133547862
+    },
+    "Red-White": {
+      "num_samples": 2,
+      "avg_attention_ratio": 0.18798828125,
+      "avg_center_attention": 0.4883432388305664,
+      "avg_cam_mean": 0.288748174905777,
+      "avg_cam_std": 0.225374273955822
+    },
+    "Black-White": {
+      "num_samples": 2,
+      "avg_attention_ratio": 0.0107421875,
+      "avg_center_attention": 0.009724864736199379,
+      "avg_cam_mean": 0.01979083934566006,
+      "avg_cam_std": 0.07720262557268143
+    }
+  }
+}
